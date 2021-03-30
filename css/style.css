@@ -1,0 +1,233 @@
+@charset "UTF-8";
+.fotoprincipal, .divlog, .log {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-grid, .fotoprincipal, .iconinformacion {
+  margin: 0 auto;
+}
+
+body {
+  background-color: white;
+  font-size: 20px;
+  color: white;
+}
+
+.fotoprincipal, .divlog, .log {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-grid, .fotoprincipal, .iconinformacion {
+  margin: 0 auto;
+}
+
+.navinicio, .navcocina, .navliving, .navjardin, .navnosotros, .navcontacto, .navcomollegar {
+  margin: 0 25px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.navinicio:hover, .navcocina:hover, .navliving:hover, .navjardin:hover,
+.navnosotros:hover, .navcontacto:hover, .navcomollegar:hover, .navredes:hover {
+  transform: scale(1.4);
+}
+
+a {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+  color: white;
+}
+
+.navredes {
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 30px;
+}
+
+.iconsocial {
+  margin-right: 5%;
+}
+
+.fotoprincipal, .divlog, .log {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-grid, .fotoprincipal, .iconinformacion {
+  margin: 0 auto;
+}
+
+.log {
+  width: 130px;
+  height: 100%;
+}
+
+.menu {
+  background-color: black;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+  right: 5px;
+  z-index: 10;
+}
+
+.fotoprincipal, .log, .divlog {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-grid, .fotoprincipal, .iconinformacion {
+  margin: 0 auto;
+}
+
+.infoMail .infoWp .infoComoLlegar {
+  display: block;
+  border: 1px solid black;
+  margin: 5px 0;
+}
+
+.iconinformacion {
+  border: 1px solid rgba(224, 193, 151, 0.849);
+  right: 2px;
+  bottom: 2px;
+  font-size: 150%;
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 48px;
+  word-wrap: break-word;
+}
+
+.fotoprincipal {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 5%;
+}
+
+.h2diseño {
+  font-family: "Syncopate", sans-serif;
+  padding: 0%;
+  margin-top: 5%;
+}
+
+.planoimg {
+  display: block;
+  width: 85%;
+  margin: 10% auto;
+}
+
+.divh2 {
+  background-image: url("../fotos/bgi-w/texturas-pared-ladrillo-blanco-fondo_74190-6515.jpg");
+  border-bottom-left-radius: 5%;
+}
+
+.log, .divlog, .fotoprincipal {
+  display: flex;
+  justify-content: center;
+}
+
+.iconinformacion, .fotoprincipal, .contenedor-grid {
+  margin: 0 auto;
+}
+
+.formulario {
+  width: 70%;
+  background-color: rgba(224, 193, 151, 0.849);
+  padding: 50px;
+  margin: 3% 0 0px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedorform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-row input[type=text],
+.form-row input[type=email] {
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 1%;
+  font-size: 16px;
+}
+
+.form-row textarea {
+  resize: none;
+  width: 100%;
+}
+
+label {
+  font-family: "Great Vibes", cursive;
+  font-size: 35px;
+}
+
+.mailywp {
+  font-size: 80%;
+  text-align: center;
+  padding: 10%;
+}
+
+.icon-mail-wp {
+  font-size: 200%;
+  text-align: center;
+}
+
+.linkmap {
+  text-decoration: none;
+  color: black;
+}
+
+.iconlink {
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+}
+
+.infoComoLlegar {
+  width: 25%;
+}
+
+.log, .divlog, .fotoprincipal {
+  display: flex;
+  justify-content: center;
+}
+
+.iconinformacion, .fotoprincipal, .contenedor-grid {
+  margin: 0 auto;
+}
+
+p {
+  margin: 15px 0;
+  text-align: center;
+  font-size: 135%;
+  color: black;
+  font-family: sans-serif;
+}
+
+.log, .divlog, .fotoprincipal {
+  display: flex;
+  justify-content: center;
+}
+
+.iconinformacion, .fotoprincipal, .contenedor-grid {
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

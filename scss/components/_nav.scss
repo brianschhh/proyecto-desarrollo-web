@@ -1,0 +1,35 @@
+@import '../variables';
+
+
+.navinicio, .navcocina, .navliving, .navjardin, .navnosotros, .navcontacto, .navcomollegar {
+    margin: 0 25px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-out;
+    
+
+}
+
+.navinicio:hover, .navcocina:hover, .navliving:hover, .navjardin:hover, 
+.navnosotros:hover, .navcontacto:hover, .navcomollegar:hover, .navredes:hover {
+    transform: scale(1.4);
+    
+}
+
+
+a {
+   
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: $c2;
+}
+
+.navredes {
+    color: rgba(255, 255, 255, 0.479);
+    font-size: 30px;
+}
+
+.iconsocial{
+   margin-right: 5%;
+}
+

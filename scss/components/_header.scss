@@ -1,0 +1,22 @@
+@import '../variables';
+
+.log{
+    @extend %display-flex;
+    width: 130px; height: 100%;
+} 
+
+.divlog {
+    @extend %display-flex;}
+
+    
+.menu {
+  
+    background-color: $c1;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    z-index: 10;
+}
+

@@ -1,0 +1,79 @@
+@import '../variables';
+
+.formulario{
+    width: 70%;
+    background-color:  $c3 ;
+    padding: 50px;
+    margin: 3% 0 0px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: $c1;
+    
+}
+
+.formulario1{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"]
+{
+    
+    
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 1%;
+    font-size: 16px;
+}
+
+.form-row textarea {
+    resize: none;
+    width: 100%;
+}
+
+label {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+} 
+
+.mailywp{
+    font-size: 80%;
+    text-align: center;
+    padding: 10%;
+}
+
+.icon-mail-wp{
+    font-size: 200%;
+    text-align: center;
+}
+
+.linkmap{
+    text-decoration: none;
+    color: black;
+}
+
+.iconlink{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.infoComoLlegar{
+    width: 25%;
+}
+
+
+
+
+
+
+

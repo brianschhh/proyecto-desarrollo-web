@@ -1,0 +1,61 @@
+@import '../variables';
+
+.infoMail .infoWp .infoComoLlegar{
+    display: block;
+    border: 1px solid $c1 ;
+    margin: 5px 0;
+}
+
+.iconinformacion{
+    border: 1px solid  $c3 ;
+    right: 2px;
+    bottom: 2px;
+    font-size: 150%;
+    color: $c1;
+    @extend %margin-center;
+ 
+}
+
+h2 {
+    color: $c1;
+    font-family: sans-serif;
+    font-size: 48px;
+    word-wrap: break-word;
+}
+
+.fotoprincipal {
+    width: 100%;
+    height: 100%;
+    @extend %margin-center;
+    @extend %display-flex;
+    border-bottom-right-radius: 5%;
+    
+    
+}
+
+.h2diseño{
+    
+font-family: 'Syncopate', sans-serif;
+padding: 0%;
+margin-top: 5%;
+
+}
+
+.contenedor-grid{ 
+    @extend %margin-center;
+    ;
+}
+
+.planoimg{
+    display: block;
+    
+    width: 85%;
+    margin: 10% auto;
+}
+
+.divh2{
+    background-image: url("../fotos/bgi-w/texturas-pared-ladrillo-blanco-fondo_74190-6515.jpg");
+    border-bottom-left-radius: 5%;
+}
+
+
