@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.fotoprincipal, .divlog, .log {
+.section1, .boton, .fotoprincipal, .divlog, .log {
   display: flex;
   justify-content: center;
 }
@@ -14,7 +14,7 @@ body {
   color: white;
 }
 
-.fotoprincipal, .divlog, .log {
+.section1, .boton, .fotoprincipal, .divlog, .log {
   display: flex;
   justify-content: center;
 }
@@ -50,7 +50,7 @@ a {
   margin-right: 5%;
 }
 
-.fotoprincipal, .divlog, .log {
+.section1, .boton, .fotoprincipal, .divlog, .log {
   display: flex;
   justify-content: center;
 }
@@ -74,7 +74,7 @@ a {
   z-index: 10;
 }
 
-.fotoprincipal, .log, .divlog {
+.section1, .boton, .fotoprincipal, .log, .divlog {
   display: flex;
   justify-content: center;
 }
@@ -127,7 +127,7 @@ h2 {
   border-bottom-left-radius: 5%;
 }
 
-.log, .divlog, .fotoprincipal {
+.section1, .boton, .log, .divlog, .fotoprincipal {
   display: flex;
   justify-content: center;
 }
@@ -204,7 +204,7 @@ label {
   width: 25%;
 }
 
-.log, .divlog, .fotoprincipal {
+.section1, .boton, .log, .divlog, .fotoprincipal {
   display: flex;
   justify-content: center;
 }
@@ -221,13 +221,39 @@ p {
   font-family: sans-serif;
 }
 
-.log, .divlog, .fotoprincipal {
+.section1, .boton, .log, .divlog, .fotoprincipal {
   display: flex;
   justify-content: center;
 }
 
 .iconinformacion, .fotoprincipal, .contenedor-grid {
   margin: 0 auto;
+}
+
+.section1, .boton, .log, .divlog, .fotoprincipal {
+  display: flex;
+  justify-content: center;
+}
+
+.iconinformacion, .fotoprincipal, .contenedor-grid {
+  margin: 0 auto;
+}
+
+.boton {
+  font-size: 150%;
+  color: white;
+  background-color: #212529;
+  width: 15%;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+.boton:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: #212529;
 }
 
 /*# sourceMappingURL=style.css.map */

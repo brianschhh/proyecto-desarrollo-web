@@ -4,10 +4,9 @@
 .navinicio, .navcocina, .navliving, .navjardin, .navnosotros, .navcontacto, .navcomollegar {
     margin: 0 25px;
     text-decoration: none;
-    color: white;
+    color: $c2;
     transition: all 0.3s ease-out;
     
-
 }
 
 .navinicio:hover, .navcocina:hover, .navliving:hover, .navjardin:hover, 

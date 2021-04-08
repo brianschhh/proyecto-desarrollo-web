@@ -1,0 +1,27 @@
+@import '../variables';
+
+.boton {
+    font-size: 150%;
+    color: $c2;
+    background-color: $c4;
+    @extend %display-flex;
+    width: 15%;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+
+}
+
+.section1 {
+    @extend %display-flex;
+}
+
+
+
+.boton:hover {
+    transform: scale(1.1);
+    color: $c2;
+    background-color: $c4;
+
+}
