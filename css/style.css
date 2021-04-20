@@ -8,6 +8,17 @@
   margin: 0 auto;
 }
 
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
+}
+
 body {
   background-color: white;
   font-size: 20px;
@@ -21,6 +32,17 @@ body {
 
 .contenedor-grid, .fotoprincipal, .iconinformacion {
   margin: 0 auto;
+}
+
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
 }
 
 .navinicio, .navcocina, .navliving, .navjardin, .navnosotros, .navcontacto, .navcomollegar {
@@ -59,6 +81,17 @@ a {
   margin: 0 auto;
 }
 
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
+}
+
 .log {
   width: 130px;
   height: 100%;
@@ -74,6 +107,27 @@ a {
   z-index: 10;
 }
 
+.fotomain {
+  width: 70%;
+  border-radius: 100%;
+  padding: 5%;
+  border: 10px solid #212529;
+  display: block;
+  margin: auto;
+}
+
+.contenedor1 {
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 300px;
+  height: 400px;
+}
+
+.contenedorfm {
+  margin-bottom: 25px;
+}
+
 .section1, .boton, .fotoprincipal, .log, .divlog {
   display: flex;
   justify-content: center;
@@ -81,6 +135,17 @@ a {
 
 .contenedor-grid, .fotoprincipal, .iconinformacion {
   margin: 0 auto;
+}
+
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
 }
 
 .infoMail .infoWp .infoComoLlegar {
@@ -134,6 +199,17 @@ h2 {
 
 .iconinformacion, .fotoprincipal, .contenedor-grid {
   margin: 0 auto;
+}
+
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
 }
 
 .formulario {
@@ -213,6 +289,17 @@ label {
   margin: 0 auto;
 }
 
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
+}
+
 p {
   margin: 15px 0;
   text-align: center;
@@ -230,6 +317,17 @@ p {
   margin: 0 auto;
 }
 
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
+}
+
 .section1, .boton, .log, .divlog, .fotoprincipal {
   display: flex;
   justify-content: center;
@@ -237,6 +335,17 @@ p {
 
 .iconinformacion, .fotoprincipal, .contenedor-grid {
   margin: 0 auto;
+}
+
+.ptop {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mtop {
+  margin-top: 20%;
 }
 
 .boton {
@@ -254,6 +363,12 @@ p {
   transform: scale(1.1);
   color: white;
   background-color: #212529;
+}
+
+.fotojard1 {
+  width: 70%;
+  float: right;
+  margin-right: 0%;
 }
 
 /*# sourceMappingURL=style.css.map */

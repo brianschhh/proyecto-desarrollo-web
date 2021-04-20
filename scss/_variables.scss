@@ -13,3 +13,15 @@ $c1 : black;
 $c2 : white;
 $c3 : rgba(224, 193, 151, 0.849);
 $c4 : #212529;
+
+.ptop {
+    border-top: 1px solid  $c1 ;
+    border-bottom: 1px solid  $c1 ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.mtop {
+    margin-top: 20%;
+    
+}
+
