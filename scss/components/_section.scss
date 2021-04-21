@@ -26,10 +26,39 @@
 
 }
 
-.fotojard1{
+.fotojard1 {
     width: 70%;
-    
-   
     float: right;
     margin-right: 0%;
+}
+
+.fotopark {
+    width: 100%;
+    border-radius: 100%;
+    
+}
+
+.ul1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgsection{
+    width: 50%;
+    display: block;
+    margin:auto;
+}
+
+.imgsection1{
+    width: 100%;
+    display: block;
+    margin:auto;
+}
+
+
+
+.p1{
+    display: flex;
+    justify-content: center;
+   align-items: center;
 }

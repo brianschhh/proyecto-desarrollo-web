@@ -19,10 +19,19 @@
   margin-top: 20%;
 }
 
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
+}
+
 body {
   background-color: white;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 .section1, .boton, .fotoprincipal, .divlog, .log {
@@ -43,6 +52,15 @@ body {
 
 .mtop {
   margin-top: 20%;
+}
+
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
 }
 
 .navinicio, .navcocina, .navliving, .navjardin, .navnosotros, .navcontacto, .navcomollegar {
@@ -92,6 +110,15 @@ a {
   margin-top: 20%;
 }
 
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
+}
+
 .log {
   width: 130px;
   height: 100%;
@@ -118,8 +145,21 @@ a {
 
 .contenedor1 {
   border: 1px solid black;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+}
+
+.contenedor2 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+}
+
+.contenedor3 {
+  border: 1px solid black;
+  margin: 0 auto;
   width: 300px;
   height: 400px;
 }
@@ -146,6 +186,15 @@ a {
 
 .mtop {
   margin-top: 20%;
+}
+
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
 }
 
 .infoMail .infoWp .infoComoLlegar {
@@ -210,6 +259,15 @@ h2 {
 
 .mtop {
   margin-top: 20%;
+}
+
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
 }
 
 .formulario {
@@ -300,6 +358,15 @@ label {
   margin-top: 20%;
 }
 
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
+}
+
 p {
   margin: 15px 0;
   text-align: center;
@@ -328,6 +395,15 @@ p {
   margin-top: 20%;
 }
 
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
+}
+
 .section1, .boton, .log, .divlog, .fotoprincipal {
   display: flex;
   justify-content: center;
@@ -346,6 +422,15 @@ p {
 
 .mtop {
   margin-top: 20%;
+}
+
+.mbot {
+  margin-bottom: 10%;
+  border-bottom: 1px solid black;
+}
+
+.pint {
+  border: 5px solid rgba(248, 231, 207, 0.849);
 }
 
 .boton {
@@ -369,6 +454,34 @@ p {
   width: 70%;
   float: right;
   margin-right: 0%;
+}
+
+.fotopark {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.ul1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgsection {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.imgsection1 {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

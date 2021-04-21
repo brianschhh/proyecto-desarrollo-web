@@ -13,6 +13,7 @@ $c1 : black;
 $c2 : white;
 $c3 : rgba(224, 193, 151, 0.849);
 $c4 : #212529;
+$c5 : rgba(248, 231, 207, 0.849);
 
 .ptop {
     border-top: 1px solid  $c1 ;
@@ -23,5 +24,15 @@ $c4 : #212529;
 .mtop {
     margin-top: 20%;
     
+    
+}
+
+.mbot{
+    margin-bottom: 10%;
+    border-bottom: 1px solid  $c1 ;
+}
+
+.pint{
+    border: 5px solid  $c5 ;
 }
 
