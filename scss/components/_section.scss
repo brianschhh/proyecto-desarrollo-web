@@ -28,14 +28,13 @@
 
 .fotojard1 {
     width: 70%;
-    float: right;
-    margin-right: 0%;
+    display: block;
+    margin:auto;
+    
 }
 
 .fotopark {
     width: 100%;
-    border-radius: 100%;
-    
 }
 
 .ul1{
@@ -60,4 +59,10 @@
     display: flex;
     justify-content: center;
    align-items: center;
+}
+
+.j5{
+    display: block;
+    
+    
 }

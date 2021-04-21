@@ -386,7 +386,7 @@ label {
 p {
   margin: 15px 0;
   text-align: center;
-  font-size: 135%;
+  font-size: 100%;
   color: black;
   font-family: sans-serif;
 }
@@ -476,13 +476,12 @@ p {
 
 .fotojard1 {
   width: 70%;
-  float: right;
-  margin-right: 0%;
+  display: block;
+  margin: auto;
 }
 
 .fotopark {
   width: 100%;
-  border-radius: 100%;
 }
 
 .ul1 {
@@ -505,6 +504,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.j5 {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
