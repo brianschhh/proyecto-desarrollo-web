@@ -1,7 +1,7 @@
 @import '../variables';
 
 .boton {
-    font-size: 150%;
+    
     color: $c2;
     background-color: $c4;
     @extend %display-flex;

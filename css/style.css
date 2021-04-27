@@ -237,6 +237,7 @@ h2 {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .divh2 {
@@ -344,10 +345,6 @@ label {
   font-size: 150%;
   display: flex;
   justify-content: center;
-}
-
-.infoComoLlegar {
-  width: 25%;
 }
 
 .section1, .boton, .log, .divlog {
@@ -458,7 +455,6 @@ p {
 }
 
 .boton {
-  font-size: 150%;
   color: white;
   background-color: #212529;
   width: 15%;
